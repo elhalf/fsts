@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire Étudiant</title>
+</head>
+<body>
+  <h2>Formulaire Étudiant</h2>
+  <form>
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="prenom">Prénom :</label><br>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+
+    <label for="codeAppoge">Code Apogée :</label><br>
+    <input type="text" id="codeAppoge" name="codeAppoge" required><br><br>
+
+    <label for="age">Âge :</label><br>
+    <input type="number" id="age" name="age" min="17" max="100" required><br><br>
+
+    <label for="filiere">Filière :</label><br>
+    <select id="filiere" name="filiere" required>
+      <option value="">--Choisir une filière--</option>
+      <option value="GI">GI</option>
+      <option value="GM">GM</option>
+      <option value="GE">GE</option>
+    </select><br><br>
+
+    <label for="annee">Année :</label><br>
+    <input type="text" id="annee" name="annee" placeholder="Ex : 2024" required><br><br>
+
+    <label for="date">Date :</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <input type="submit" value="Envoyer">
+  </form>
+</body>
+</html>
+
